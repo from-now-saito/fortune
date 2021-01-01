@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fortune</title>
+</head>
+
+<body>
+  <h1>誕生日占い</h1>
+  <p>誕生日によって今日の運勢を占います。</p>
+  <p>結果は毎日変わります。</p>
+  <p>※誕生日は半角4ケタで入力してください。(例：1月1日→0101)</p>
+
+  <form>
+    <label>あなたの誕生日：<input type="number" id="birthday" min="0101" max="1231"></label>
+    <button id="btn" type="button">占う</button>
+  </form>
+
+  <div id="target"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
